@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-17T10:59:26 IST" name="Suite" finished-at="2024-05-17T11:00:49 IST" duration-ms="83387">
+    <groups>
+    </groups>
+    <test started-at="2024-05-17T10:59:26 IST" name="Test" finished-at="2024-05-17T11:00:49 IST" duration-ms="83387">
+      <class name="com.videostori.testcases.TC03_userManagement">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T10:59:26 IST" name="setup" finished-at="2024-05-17T10:59:33 IST" duration-ms="6424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginforall(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T10:59:34 IST" name="loginforall" data-provider="LoginDataProvider" finished-at="2024-05-17T10:59:40 IST" duration-ms="5702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siddharth.anyan@msdi.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Msdi@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Siddharth Anyan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginforall -->
+        <test-method signature="UsermanagementTestwithduplicate()[pri:2, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T10:59:40 IST" name="UsermanagementTestwithduplicate" finished-at="2024-05-17T10:59:47 IST" duration-ms="7165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithduplicate -->
+        <test-method signature="UsermanagementTestwithoutfirstname()[pri:3, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T10:59:47 IST" name="UsermanagementTestwithoutfirstname" finished-at="2024-05-17T10:59:53 IST" duration-ms="6063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithoutfirstname -->
+        <test-method signature="UsermanagementTestwithoutlastname()[pri:4, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T10:59:53 IST" name="UsermanagementTestwithoutlastname" finished-at="2024-05-17T10:59:59 IST" duration-ms="6233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithoutlastname -->
+        <test-method signature="UsermanagementTestwithoutemail()[pri:5, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T10:59:59 IST" name="UsermanagementTestwithoutemail" finished-at="2024-05-17T11:00:05 IST" duration-ms="6113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithoutemail -->
+        <test-method signature="UsermanagementTestwithinvalidemail()[pri:6, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:05 IST" name="UsermanagementTestwithinvalidemail" finished-at="2024-05-17T11:00:12 IST" duration-ms="6251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithinvalidemail -->
+        <test-method signature="UsermanagementTestwithblankmobilenumber()[pri:7, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:12 IST" name="UsermanagementTestwithblankmobilenumber" finished-at="2024-05-17T11:00:18 IST" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithblankmobilenumber -->
+        <test-method signature="UsermanagementTestwithinvalidmobilenumberdigit()[pri:8, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:18 IST" name="UsermanagementTestwithinvalidmobilenumberdigit" finished-at="2024-05-17T11:00:24 IST" duration-ms="6153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithinvalidmobilenumberdigit -->
+        <test-method signature="UsermanagementTestwithblankpwdalert()[pri:9, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:24 IST" name="UsermanagementTestwithblankpwdalert" finished-at="2024-05-17T11:00:30 IST" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithblankpwdalert -->
+        <test-method signature="UsermanagementTestwithpwdformatalert()[pri:10, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:30 IST" name="UsermanagementTestwithpwdformatalert" finished-at="2024-05-17T11:00:36 IST" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithpwdformatalert -->
+        <test-method signature="UsermanagementTestwithblankconfirmpwdalert()[pri:11, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:36 IST" name="UsermanagementTestwithblankconfirmpwdalert" finished-at="2024-05-17T11:00:43 IST" duration-ms="6203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithblankconfirmpwdalert -->
+        <test-method signature="UsermanagementTestwithconfirmpwdnotmatchalert()[pri:12, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:43 IST" name="UsermanagementTestwithconfirmpwdnotmatchalert" finished-at="2024-05-17T11:00:49 IST" duration-ms="6132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UsermanagementTestwithconfirmpwdnotmatchalert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.videostori.testcases.TC03_userManagement@8458f04]" started-at="2024-05-17T11:00:49 IST" name="tearDown" finished-at="2024-05-17T11:00:49 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.videostori.testcases.TC03_userManagement -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
